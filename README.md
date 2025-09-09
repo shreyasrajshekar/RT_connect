@@ -1,4 +1,4 @@
-📱 RT_Connect
+#📱 RT_Connect
 
 A real-time messaging application built with React Native (Expo) and Firebase.
 This project is part of the GDG Tech second round submission and demonstrates:
