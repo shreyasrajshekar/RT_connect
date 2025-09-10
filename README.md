@@ -1,40 +1,43 @@
-#📱 RT_Connect
+# **Real-time Messaging App**
 
-A real-time messaging application built with React Native (Expo) and Firebase.
-This project is part of the GDG Tech second round submission and demonstrates:
+This project was built as part of GDG NMIT Round 2. The goal was to implement a real-time chat application with Firebase, handle offline states, and integrate push notifications.
 
-Real-time chat using Firestore
+## **🚀 Features Implemented**
 
-Push notifications using Firebase Cloud Messaging (FCM)
+Real-time messaging using Firebase Firestore.
 
-Offline handling (popup when disconnected, auto-dismiss on reconnect)
+Connection check → shows a popup if the user goes offline.
 
-Modular, clean code structure
+Basic UI for sending and receiving messages.
 
-🚀 Features
+Demo video included.
 
-✅ User enters their name before joining the chat
-✅ Real-time messaging with Firestore
-✅ Push notifications for new messages (via FCM)
-✅ Works offline with a connection loss popup
-✅ Simple & clean UI with separate screens
+## **⚠️ Limitations**
 
-📂 Project Structure
-Lets_Connect/
-├── App.js              # Entry point (navigates between screens)
-├── firebaseConfig.js   # Firebase setup
-├── screens/
-│   ├── AddName.js      # Enter username before chat
-│   ├── ChatScreen.js   # Real-time chat UI
-│   └── Notification.js # Push notifications setup
-└── README.md
+Push notifications (FCM) were attempted but not fully functional due to configuration issues. A simulated notification flow is shown in the demo video to represent intended behavior.
 
-⚡ Tech Stack
+UI was generated/adapted with AI tools and customized for integration.
 
-React Native (Expo) – for building the mobile UI
+## **🔮 Future Improvements**
 
-Firebase Firestore – for real-time chat messages
+Fix FCM configuration and fully enable push notifications.
 
-Firebase Cloud Messaging (FCM) – for push notifications
+Add message read receipts and typing indicators.
 
-NetInfo – for offline/online status detection
+Improve UI/UX with themes, emojis, and reactions.
+
+Add authentication for multiple users.
+
+## **🛠️ Tech Stack**
+
+React Native (Expo)
+
+Firebase Firestore for real-time data
+
+Firebase Authentication (optional for future)
+
+FCM (Firebase Cloud Messaging) for push notifications
+
+## **📹 Demo**
+
+https://www.youtube.com/shorts/OijyeFNEN04
